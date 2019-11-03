@@ -18,7 +18,7 @@ LINKS
 link = ""
 
 #Initialization of the user desired stock
-ticker = input("Please enter a stock ticker to analyze: ")
+ticker = ""
 print("")
 print("")
 
@@ -127,7 +127,7 @@ try:
 	if __name__ == '__main__':
 		print("")
 		print("")
-		print("Your stock, {}, returned a sentiment value of ".format(ticker) + str(run_quickstart()) + "!")
+		print("Requested stock, {}, returned a sentiment value of ".format(ticker) + str(run_quickstart()) + "!")
 
 except:
 	print("Something went wrong!")
